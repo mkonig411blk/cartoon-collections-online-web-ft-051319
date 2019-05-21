@@ -20,6 +20,7 @@ end
 def find_the_cheese(array_of_food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array_of_food.find do |food|
+    #find returns the first thing in the array where the block equates to true
     cheese_types.include?(food)
   end
 end
