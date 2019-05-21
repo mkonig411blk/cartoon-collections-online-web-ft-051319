@@ -22,7 +22,7 @@ def find_the_cheese(array_of_food)
   array_of_food.find do |food|
     #find returns the first thing in the array where the block equates to true
     cheese_types.include?(food)
-    #in the background, this is happening:
+    #in the background, something like this is happening:
     #cheese_types.each do |cheese|
     #   cheese == food ? 
     # end
